@@ -13,8 +13,6 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- task: JfrogCliV2@1  # Existing JfrogCliV2 task (if needed)
-
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
