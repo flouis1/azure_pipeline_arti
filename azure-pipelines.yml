@@ -16,6 +16,7 @@ steps:
   inputs:
     jfrogPlatformConnection: 'psemea'
     command: |
+      jf c s
       jf mvnc  --repo-deploy-releases demo-nn-libs-release
       jf mvnc  --repo-deploy-snapshots demo-nn-libs-snapshot-local
       jf mvnc  --repo-resolve-releases maven-remote
