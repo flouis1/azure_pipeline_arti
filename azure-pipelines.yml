@@ -15,8 +15,7 @@ steps:
 - task: JfrogCliV2@1
   inputs:
     jfrogPlatformConnection: 'psemea'
-    command: |
-      jf c s
+    command: 'jf c s'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
