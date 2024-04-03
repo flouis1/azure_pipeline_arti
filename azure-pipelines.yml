@@ -17,10 +17,6 @@ steps:
     jfrogPlatformConnection: 'psemea'
     command: |
       jf c s
-      jf mvnc  --repo-deploy-releases demo-nn-libs-release
-      jf mvnc  --repo-deploy-snapshots demo-nn-libs-snapshot-local
-      jf mvnc  --repo-resolve-releases maven-remote
-      jf mvnc  --repo-resolve-snapshots maven-remote
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
